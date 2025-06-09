@@ -6,19 +6,19 @@ const btn = document.querySelector(".button-pes")
 
 function chamar (){
 
-let folgas1 = ["Folga", "Trabalha", "Trabalha", "Trabalha","Folga", "Folga","Trabalha", "Trabalha","Trabalha", "Folga", "Folga", "Trabalha", "Trabalha","Trabalha", "Folga", "Folga", "Trabalha", "Trabalha","Trabalha","Trabalha", "Folga", "Folga", "Trabalha", "Trabalha", "Folga", "Folga", "Trabalha", "Trabalha","Trabalha", "Folga", "Folga", "Trabalha", "Trabalha","Trabalha", "Folga"];
+let folgas1 = ["Folga", "Trabalha", "Trabalha", "Trabalha","Folga"]; //, "Folga","Trabalha", "Trabalha","Trabalha", "Folga", "Folga", "Trabalha", "Trabalha","Trabalha", "Folga", "Folga", "Trabalha", "Trabalha","Trabalha","Trabalha", "Folga", "Folga", "Trabalha", "Trabalha", "Folga", "Folga", "Trabalha", "Trabalha","Trabalha", "Folga", "Folga", "Trabalha", "Trabalha","Trabalha", "Folga"];
 
 
-let folgas2 = ["Folga", "Folga", "Trabalha", "Trabalha","Trabalha","Trabalha", "Folga", "Folga", "Trabalha", "Trabalha", "Folga", "Folga", "Trabalha", "Trabalha","Trabalha", "Folga", "Folga", "Trabalha", "Trabalha","Trabalha", "Folga","Folga", "Trabalha", "Trabalha", "Trabalha","Folga", "Folga","Trabalha", "Trabalha","Trabalha", "Folga", "Folga", "Trabalha", "Trabalha","Trabalha"];
+let folgas2 = ["Folga", "Folga", "Trabalha", "Trabalha","Trabalha"];//,"Trabalha", "Folga", "Folga", "Trabalha", "Trabalha", "Folga", "Folga", "Trabalha", "Trabalha","Trabalha", "Folga", "Folga", "Trabalha", "Trabalha","Trabalha", "Folga","Folga", "Trabalha", "Trabalha", "Trabalha","Folga", "Folga","Trabalha", "Trabalha","Trabalha", "Folga", "Folga", "Trabalha", "Trabalha","Trabalha"];
 
 
-let folgas3 = ["Trabalha", "Folga", "Folga", "Trabalha", "Trabalha","Trabalha", "Folga", "Folga", "Trabalha", "Trabalha", "Trabalha","Folga", "Folga","Trabalha", "Trabalha","Trabalha", "Folga", "Folga", "Trabalha", "Trabalha","Trabalha", "Folga", "Folga", "Trabalha", "Trabalha","Trabalha","Trabalha", "Folga", "Folga", "Trabalha", "Trabalha", "Folga", "Folga", "Trabalha", "Trabalha" ];
+let folgas3 = ["Trabalha", "Folga", "Folga", "Trabalha", "Trabalha"]; //"Trabalha", "Folga", "Folga", "Trabalha", "Trabalha", "Trabalha","Folga", "Folga","Trabalha", "Trabalha","Trabalha", "Folga", "Folga", "Trabalha", "Trabalha","Trabalha", "Folga", "Folga", "Trabalha", "Trabalha","Trabalha","Trabalha", "Folga", "Folga", "Trabalha", "Trabalha", "Folga", "Folga", "Trabalha", "Trabalha" ];
 
 
-let folgas4 = [ "Trabalha","Trabalha", "Folga", "Folga", "Trabalha", "Trabalha","Trabalha", "Folga", "Folga", "Trabalha", "Trabalha","Trabalha","Trabalha", "Folga", "Folga", "Trabalha", "Trabalha", "Folga", "Folga", "Trabalha", "Trabalha","Trabalha", "Folga", "Folga", "Trabalha", "Trabalha","Trabalha", "Folga","Folga", "Trabalha", "Trabalha", "Trabalha","Folga", "Folga","Trabalha"];
+let folgas4 = [ "Trabalha","Trabalha", "Folga", "Folga", "Trabalha"]; // "Trabalha","Trabalha", "Folga", "Folga", "Trabalha", "Trabalha","Trabalha","Trabalha", "Folga", "Folga", "Trabalha", "Trabalha", "Folga", "Folga", "Trabalha", "Trabalha","Trabalha", "Folga", "Folga", "Trabalha", "Trabalha","Trabalha", "Folga","Folga", "Trabalha", "Trabalha", "Trabalha","Folga", "Folga","Trabalha"];
 
 
-let folgas5 = ["Folga", "Trabalha", "Trabalha", "Folga", "Folga", "Trabalha", "Trabalha","Trabalha", "Folga", "Folga", "Trabalha", "Trabalha","Trabalha", "Folga", "Folga", "Trabalha", "Trabalha", "Trabalha","Folga", "Folga","Trabalha", "Trabalha","Trabalha", "Folga", "Folga", "Trabalha", "Trabalha","Trabalha", "Folga", "Folga", "Trabalha", "Trabalha","Trabalha","Trabalha", "Folga"];
+let folgas5 = ["Folga", "Trabalha", "Trabalha", "Folga", "Folga"]; //, "Trabalha", "Trabalha","Trabalha", "Folga", "Folga", "Trabalha", "Trabalha","Trabalha", "Folga", "Folga", "Trabalha", "Trabalha", "Trabalha","Folga", "Folga","Trabalha", "Trabalha","Trabalha", "Folga", "Folga", "Trabalha", "Trabalha","Trabalha", "Folga", "Folga", "Trabalha", "Trabalha","Trabalha","Trabalha", "Folga"];
 
   
 console.log("tamanho " + folgas2[12])
@@ -100,7 +100,7 @@ const renderCalendar = ()=>{
 
      
 
-    let difEscala = dif < 35 ? dif : dif%35
+    let difEscala = dif < 5 ? dif : dif%5
     let folgasDaEscala = salario[difEscala]
     //console.log(folgas[0].one[difEscala])
     
