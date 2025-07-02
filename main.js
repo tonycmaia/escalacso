@@ -18,7 +18,7 @@ let folgas3 = ["Trabalha", "Folga", "Folga", "Trabalha", "Trabalha"]; //"Trabalh
 let folgas4 = [ "Trabalha","Trabalha", "Folga", "Folga", "Trabalha"]; // "Trabalha","Trabalha", "Folga", "Folga", "Trabalha", "Trabalha","Trabalha","Trabalha", "Folga", "Folga", "Trabalha", "Trabalha", "Folga", "Folga", "Trabalha", "Trabalha","Trabalha", "Folga", "Folga", "Trabalha", "Trabalha","Trabalha", "Folga","Folga", "Trabalha", "Trabalha", "Trabalha","Folga", "Folga","Trabalha"];
 
 
-let folgas5 = ["Folga", "Trabalha", "Trabalha", "Trabalha", "Folga"]; //, "Trabalha", "Trabalha","Trabalha", "Folga", "Folga", "Trabalha", "Trabalha","Trabalha", "Folga", "Folga", "Trabalha", "Trabalha", "Trabalha","Folga", "Folga","Trabalha", "Trabalha","Trabalha", "Folga", "Folga", "Trabalha", "Trabalha","Trabalha", "Folga", "Folga", "Trabalha", "Trabalha","Trabalha","Trabalha", "Folga"];
+let folgas5 = ["Trabalha", "Trabalha", "Trabalha", "Folga", "Folga"]; //, "Trabalha", "Trabalha","Trabalha", "Folga", "Folga", "Trabalha", "Trabalha","Trabalha", "Folga", "Folga", "Trabalha", "Trabalha", "Trabalha","Folga", "Folga","Trabalha", "Trabalha","Trabalha", "Folga", "Folga", "Trabalha", "Trabalha","Trabalha", "Folga", "Folga", "Trabalha", "Trabalha","Trabalha","Trabalha", "Folga"];
 
   
 console.log("tamanho " + folgas2[12])
